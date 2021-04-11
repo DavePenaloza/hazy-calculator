@@ -1,4 +1,3 @@
-// const isANum = (string) => {
 const calculate = (arr) => {
   const string = ['', undefined, 'foo', 'bar']
 
