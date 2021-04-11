@@ -1,15 +1,6 @@
 // const isANum = (string) => {
-//    switch (string) {
-//        case "2" :
-//        case "*" : 
-//            return false
-//        default: 
-//            return true 
-//    }
-// }
 const calculate = (arr) => {
   const string = ['', undefined, 'foo', 'bar']
-
 
   let newArray = arr.filter(num => {
     return !string.includes(num)
